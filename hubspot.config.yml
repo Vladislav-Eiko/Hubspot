@@ -1,0 +1,28 @@
+defaultPortal: crm-development
+portals:
+  - name: MainProd
+    portalId: 139522487
+    env: prod
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          CKScgeXTMRITAA0AQAAA4G0DQAJYAmEAAPgAwBi348NCIPHPgh4o7ukMMhStKKwkLwcviV4PXRD4Aq-auiqaeTo6AAAEQQAAAHgAAAAAAAAAAACAAAAAAAAEAADABwCO8DE8YFAGAEQAYED8GAYAECwDAAAAAAA8_gMAwEIUxN8g0JJs56wmCWmkzcS7gT5SZ_FKA2V1MVIAWgA
+        expiresAt: '2024-01-24T17:59:15.254Z'
+    personalAccessKey: >-
+      CiRldTEtZDg5MS05MzhkLTRmOGMtYmQwOS1jYmU0MDNjM2MxY2YQt-PDQhjxz4IeKhkABeaRgpXEbFDwY0i3behpAJqy-nRCLZiSSgNldTE
+    sandboxAccountType: null
+    parentAccountId: null
+  - name: crm-development
+    portalId: 144016464
+    env: prod
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          CNzaw-jTMRIRAA0ATAAA4G0DQAJYAgEAAfgY0IjWRCDxz4IeKO7pDDIUQtKiQJZ9hdqUlCyiCN89HbfzB_U6PwAABEEAAAB4AAAAAAAAAACAgQAAAAAABMAAwAdgjvAxPGBQBgBEAGBA_BgGABAgA_gPAAAA_P8DAAAAAAAAAUIUVLltN1A7sRUkO3usbNOdGgEBKxNKA2V1MVIAWgA
+        expiresAt: '2024-01-24T20:02:16.051Z'
+    personalAccessKey: >-
+      CiRldTEtY2YzMy1jNjMxLTRmZjItYjVmZS01ODZlOTg0MDE3MjcQ0IjWRBjxz4IeKhkABeaRgkV9Sr4vMTHbFHZKu6xNRu_lS5uzSgNldTE
+    sandboxAccountType: DEVELOPER
+    parentAccountId: 139522487
